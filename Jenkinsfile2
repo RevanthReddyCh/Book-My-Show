@@ -43,7 +43,7 @@ pipeline {
         //stage('Quality Gate') {
             //steps {
               // script {
-                    waitForQualityGate(credentialsId: 'sonar-token')
+                  //  waitForQualityGate(credentialsId: 'sonar-token')
               //  }
            // }
      //   }
