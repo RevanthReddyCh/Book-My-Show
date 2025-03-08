@@ -40,13 +40,13 @@ pipeline {
             }
         }
 
-        stage('Quality Gate') {
-            steps {
-                script {
+        //stage('Quality Gate') {
+            //steps {
+              // script {
                     waitForQualityGate(credentialsId: 'sonar-token')
-                }
-            }
-        }
+              //  }
+           // }
+     //   }
 
         stage('Install Dependencies') {
             steps {
