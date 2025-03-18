@@ -35,7 +35,7 @@ pipeline {
                     $SCANNER_HOME/bin/sonar-scanner \
                         -Dsonar.projectName=BMS \
                         -Dsonar.projectKey=BMS
-                        -Dsonar.login=$SONAR_TOKEN
+                        -Dsonar.login="$SONAR_TOKEN"
                     '''
                     }
                 }
