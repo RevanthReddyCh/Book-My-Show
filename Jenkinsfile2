@@ -128,5 +128,5 @@ pipeline {
                 //to: 'kastrokiran@gmail.com',
                 //attachmentsPattern: 'trivyfs.txt'
        // }
-    }
+   //}
 }
